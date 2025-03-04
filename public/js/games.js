@@ -1,6 +1,6 @@
 async function fetchGames() {
 	try {
-		const response = await fetch("./json/games.json");
+		const response = await fetch("/./json/games.json");
 		const games = await response.json();
 		window.gamesData = games;
 
