@@ -1,11 +1,8 @@
 document.body.style.overflow = "hidden";
 
 const texts = [
-	"Lunaar",
-	"Freedom",
-	"Perfection",
+	"Rocket",
 	"The Future",
-	"The Ultimate Proxy",
 	"The best site!",
 ];
 const typingSpeed = 100;
