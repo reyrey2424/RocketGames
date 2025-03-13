@@ -1,0 +1,26 @@
+[
+  {
+    "name": "[!!] Request A Game",
+    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfY7Eh5sWLn9DcNHilyp2Xi_I8YA0MxXbENQDsatkwD_F1qeA/viewform",
+    "image": "/img/jotform.png",
+    "usesProxy": false
+  },
+  {
+    "name": "1v1.lol",
+    "url": "/misc/play/1v1lol.html",
+    "image": "/misc/1v1-lol/splash.webp",
+    "usesProxy": false
+  },
+  {
+    "name": "1 on 1 Soccer",
+    "url": "/misc/play/1o1soccer.html",
+    "image": "/misc/flash/img/1o1.webp",
+    "usesProxy": false
+  },
+  {
+    "name": "2Doom",
+    "url": "",
+    "image": "/img/games/2doom.webp",
+    "usesProxy": true
+  }
+]
