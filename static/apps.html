@@ -1,58 +1,41 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>8-bi | Games</title>
-    <link rel="stylesheet" href="/css/nav.css">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/searchbar.css">
-    <link rel="stylesheet" href="/css/games.css">
-    <link rel="icon" type="image/x-icon" href="img/Google-classroom.jpeg" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-  </head>
-  <body> 
-    <nav>
-       <div class="navbar">
-        <a id="nav-title" href="/">8-bit</a>
-        <a href="/html/games.html"></i>Games</a>
-        <a href="/a"></i>Apps</a>
-        <a href="/-"></i>Media</a>
-        <a href="/e"></i>AI</a>
-        <a href="/s"></i>Settings</a>
-        <a href="/profile"></i></a>
-      </div>
-    </nav>
-  
 
-    <h1>Apps</h1>
+<head>
+  <title>Google Classroom</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link href="/assets/css/style.css?version=2" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/nav.css?v=3" />
+  <script src="/assets/uv/uv.bundle.js?v=1"></script>
+  <script src="/assets/uv/uv.config.js?cdn"></script>
+  <script src="/assets/uv/js/hiring.js?v=8"></script>
+  <script src="/assets/js/script.js?v=11"></script>
+  <link rel="icon" type="image/x-icon" href="img/Google-classroom.jpeg" />
 
-    <div class="search-container">
-      <input
-        type="text"
-        placeholder="Search for games"
-        class="search"
-        id="search-input"
-      />
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <a id="nav-title" href="/">Emerald Games</a>
+      <a href="/g"><i class="fa-solid fa-gamepad">&nbsp;</i>Games</a>
+      <a href="apps.html"><i class="fa-solid fa-box-archive">&nbsp;</i>Apps</a>
+      <a href="/-"><i class="fa-solid fa-tv">&nbsp;</i>Media</a>
+      <a href="/s"><i class="fa-solid fa-gears">&nbsp;</i>Settings</a>
     </div>
-
-    <div class="app-container" id="app-container"></div>
+  </nav>
+  <main>
+    <link href="assets/css/games.css?v=3" rel="stylesheet" />
+    <script src="/assets/js/apps.js?v=6"></script>
+    <input id="searchbar" class='searchbar' onkeyup="search();" placeholder="Search through our games" type="text"
+      autocomplete="off" /><br>
+    <text id="text"></text>
+    <div id="game-container">
+    </div>
+    <br>
   </main>
+  <script src="/assets/js/searchbar.v2.js?v=5"></script>
+</body>
 
-
-  
-    <script></script>
-
-    <div id="notification"></div>
-    <script src="/./js/apps.js"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="/baremux/index.js" defer></script>
-    <script src="/uv/uv.bundle.js" defer></script>
-    <script src="/uv/uv.config.js" defer></script>
-    <script src="/uv/register-sw.js" defer></script>
-    <script src="/uv/search.js" defer></script>
-    <script src="/uv/proxy.js" defer></script>
-  </body>
 </html>

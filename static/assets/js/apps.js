@@ -1,6 +1,6 @@
 window.addEventListener("load", (event) => {
   const gameContainer = document.getElementById("game-container");
-  fetch("/assets/json/load/apps.json")
+  fetch("/assets/json/apps.json")
     .then((response) => response.json())
     .then((apps) => {
       apps.sort((a, b) => a.name.localeCompare(b.name));

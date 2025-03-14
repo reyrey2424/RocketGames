@@ -34,7 +34,7 @@
 }
 
 .form__input::placeholder {
-  color: #aaa;
+  color: lightgreen;
   text-align: center;
 }
 
@@ -88,5 +88,5 @@
 
 .infobtn:hover {
   scale: 1.05;
-  color: #b5cae0;
+  color: lightgreen;
 }
