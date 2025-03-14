@@ -15,7 +15,7 @@
     "name": "Basketball SuperStars",
     "url": "https://www.crazygames.com/embed/basketball-superstars",
     "image": "/img/games/Basketball-superstars.webp",
-    "usesProxy": true
+    "usesProxy": false
   },
   {
     "name": "2Doom",
