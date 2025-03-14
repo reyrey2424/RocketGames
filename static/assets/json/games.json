@@ -12,10 +12,10 @@
     "usesProxy": true
   },
   {
-    "name": "1 on 1 Soccer",
-    "url": "/misc/play/1o1soccer.html",
-    "image": "/misc/flash/img/1o1.webp",
-    "usesProxy": false
+    "name": "Basketball SuperStars",
+    "url": "https://www.crazygames.com/embed/basketball-superstars",
+    "image": "/img/games/Basketball-superstars.webp",
+    "usesProxy": true
   },
   {
     "name": "2Doom",
