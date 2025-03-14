@@ -12,7 +12,7 @@
 
 #sub {
   font-size: 17px;
-  color: #b5cae0;
+  color: black;
   margin-bottom: 2px;
   font-family: "Roboto", serif;
   text-align: center;
@@ -23,7 +23,7 @@
   padding: 1.2vw;
   width: 50%;
   border-radius: 5px;
-  background: #7a8fab;
+  background: black;
   text-align: center;
   font-size: 24px;
   border: none;
@@ -74,7 +74,7 @@
 }
 
 .infobtn {
-  background-color: #7a8fab;
+  background-color: black;
   color: white;
   border: none;
   padding: 10px 20px;
