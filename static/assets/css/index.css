@@ -7,7 +7,7 @@
   margin-bottom: 5px;
   font-family: "Roboto", serif;
   text-align: center;
-  padding-top: 2vh;
+  padding-top: 0;
 }
 
 #sub {
@@ -52,10 +52,12 @@
   align-items: center;
   margin-top: 30px;
   max-width: 1000px;
+  position: absolute;
+  left: 15%;
 }
 
 .quicklink {
-  margin-right: 10px;
+  margin-right: 12px;
   cursor: pointer;
 }
 
